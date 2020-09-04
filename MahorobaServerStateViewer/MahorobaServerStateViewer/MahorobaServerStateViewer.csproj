@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>MahorobaServerStateViewer</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="7.2.0.1422" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Mahoroba\Service\Mahoroba.Service.Server.Interface\Mahoroba.Service.Server.Interface.csproj" />
+    <ProjectReference Include="..\..\Mahoroba\Service\Mahoroba.Service.Server\Mahoroba.Service.Server.csproj" />
+    <ProjectReference Include="..\MahorobaServerStateViewer.Core\MahorobaServerStateViewer.Core.csproj" />
+    <ProjectReference Include="..\Modules\MahorobaServerStateViewer.Modules.StateView\MahorobaServerStateViewer.Modules.StateView.csproj" />
+  </ItemGroup>
+</Project>

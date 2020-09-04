@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>MahorobaServerStateViewer.Modules.StateView</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="7.2.0.1422" />
+    <PackageReference Include="ReactiveProperty.WPF" Version="7.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Mahoroba\Mahoroba.Shared\Mahoroba.Shared.csproj" />
+    <ProjectReference Include="..\..\..\Mahoroba\Service\Mahoroba.Service.Server.Interface\Mahoroba.Service.Server.Interface.csproj" />
+    <ProjectReference Include="..\..\MahorobaServerStateViewer.Core\MahorobaServerStateViewer.Core.csproj" />
+  </ItemGroup>
+</Project>

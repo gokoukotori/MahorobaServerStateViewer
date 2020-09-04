@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30428.66
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{78EA2261-3C45-4D95-BC91-9AA8EDA97CA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{582E65A8-1649-48C7-B3FD-8E70CD945D10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MahorobaServerStateViewer", "MahorobaServerStateViewer\MahorobaServerStateViewer\MahorobaServerStateViewer.csproj", "{F69FA97B-39BF-41FC-8AAF-4755A5F28F88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MahorobaServerStateViewer.Core", "MahorobaServerStateViewer\MahorobaServerStateViewer.Core\MahorobaServerStateViewer.Core.csproj", "{94EF7119-662B-412C-9945-5DB07B5C5BDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mahoroba.Shared", "Mahoroba\Mahoroba.Shared\Mahoroba.Shared.csproj", "{D6B7D85D-C659-4DD3-B2F7-C473A5FBB25D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mahoroba.Service.Server", "Mahoroba\Service\Mahoroba.Service.Server\Mahoroba.Service.Server.csproj", "{76C2BCAD-8120-4A8E-996A-A325ED0BB656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mahoroba.Service.Server.Interface", "Mahoroba\Service\Mahoroba.Service.Server.Interface\Mahoroba.Service.Server.Interface.csproj", "{3199FA84-4840-4A2A-BA9F-ACECB00B49C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahorobaServerStateViewer.Modules.StateView", "MahorobaServerStateViewer\Modules\MahorobaServerStateViewer.Modules.StateView\MahorobaServerStateViewer.Modules.StateView.csproj", "{1F8A852D-33B7-480A-9ECC-BE35752E140B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F69FA97B-39BF-41FC-8AAF-4755A5F28F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69FA97B-39BF-41FC-8AAF-4755A5F28F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69FA97B-39BF-41FC-8AAF-4755A5F28F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69FA97B-39BF-41FC-8AAF-4755A5F28F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EF7119-662B-412C-9945-5DB07B5C5BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EF7119-662B-412C-9945-5DB07B5C5BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EF7119-662B-412C-9945-5DB07B5C5BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EF7119-662B-412C-9945-5DB07B5C5BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B7D85D-C659-4DD3-B2F7-C473A5FBB25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B7D85D-C659-4DD3-B2F7-C473A5FBB25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B7D85D-C659-4DD3-B2F7-C473A5FBB25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B7D85D-C659-4DD3-B2F7-C473A5FBB25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C2BCAD-8120-4A8E-996A-A325ED0BB656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C2BCAD-8120-4A8E-996A-A325ED0BB656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C2BCAD-8120-4A8E-996A-A325ED0BB656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C2BCAD-8120-4A8E-996A-A325ED0BB656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3199FA84-4840-4A2A-BA9F-ACECB00B49C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3199FA84-4840-4A2A-BA9F-ACECB00B49C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3199FA84-4840-4A2A-BA9F-ACECB00B49C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3199FA84-4840-4A2A-BA9F-ACECB00B49C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8A852D-33B7-480A-9ECC-BE35752E140B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8A852D-33B7-480A-9ECC-BE35752E140B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8A852D-33B7-480A-9ECC-BE35752E140B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8A852D-33B7-480A-9ECC-BE35752E140B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76C2BCAD-8120-4A8E-996A-A325ED0BB656} = {582E65A8-1649-48C7-B3FD-8E70CD945D10}
+		{3199FA84-4840-4A2A-BA9F-ACECB00B49C1} = {582E65A8-1649-48C7-B3FD-8E70CD945D10}
+		{1F8A852D-33B7-480A-9ECC-BE35752E140B} = {78EA2261-3C45-4D95-BC91-9AA8EDA97CA2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F4EEE04-C43D-434A-8BFC-3FD741A27DA9}
+	EndGlobalSection
+EndGlobal
